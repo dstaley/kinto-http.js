@@ -15,6 +15,8 @@ import Bucket from "../src/bucket";
 import { HelloResponse, OperationResponse } from "../src/types";
 import { KintoResponse } from "../src/batch";
 
+break_the_build();
+
 chai.use(chaiAsPromised);
 chai.should();
 chai.config.includeStack = true;
